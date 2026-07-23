@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <title>Galeria de Assets · Mythical Rogue</title>
+    <style>
+      :root {
+        --bg: #0d0b1a;
+        --bg-2: #14112a;
+        --panel: #1b1733;
+        --panel-2: #221d3f;
+        --linha: #322a52;
+        --roxo: #8b5cf6;
+        --roxo-claro: #b79bff;
+        --agua: #38bdf8;
+        --txt: #ece9ff;
+        --txt-mute: #a79fd0;
+        --xadrez-a: #b9b9c2;
+        --xadrez-b: #8f8f9c;
+        --raio: 14px;
+        --sombra: 0 6px 20px rgba(0, 0, 0, 0.45);
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; }
+      body {
+        background:
+          radial-gradient(1200px 600px at 15% -10%, #241a44 0%, transparent 55%),
+          radial-gradient(1000px 500px at 100% 0%, #10283a 0%, transparent 50%),
+          var(--bg);
+        color: var(--txt);
+        font-family: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+        -webkit-text-size-adjust: 100%;
+        min-height: 100vh;
+      }
+      a { color: inherit; }
+
+      header.topo {
+        padding: 20px 16px 12px;
+        max-width: 1500px;
+        margin: 0 auto;
+      }
+      .titulo {
+        display: flex;
+        align-items: baseline;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .titulo h1 {
+        font-size: clamp(1.35rem, 4.5vw, 2rem);
+        margin: 0;
+        letter-spacing: 0.2px;
+        background: linear-gradient(90deg, var(--roxo-claro), var(--agua));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .subtitulo {
+        color: var(--txt-mute);
+        font-size: 0.92rem;
+        margin: 6px 0 0;
+        line-height: 1.4;
+      }
+      .cobertura {
+        font-variant-numeric: tabular-nums;
+        color: var(--roxo-claro);
+        font-weight: 600;
+      }
+
+      /* Barra de ferramentas fixa: busca + chips */
+      .ferramentas {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        background: linear-gradient(180deg, rgba(13, 11, 26, 0.97), rgba(13, 11, 26, 0.86));
+        backdrop-filter: blur(8px);
+        border-bottom: 1px solid var(--linha);
+        padding: 10px 12px;
+      }
+      .ferramentas-interna { max-width: 1500px; margin: 0 auto; }
+      .busca-wrap { position: relative; display: flex; align-items: center; }
+      .busca-wrap svg { position: absolute; left: 12px; width: 18px; height: 18px; opacity: 0.6; }
+      #busca {
+        width: 100%;
+        padding: 13px 40px 13px 40px;
+        font-size: 16px; /* >=16px evita zoom automático no iOS */
+        color: var(--txt);
+        background: var(--panel);
+        border: 1px solid var(--linha);
+        border-radius: 12px;
+        outline: none;
+      }
+      #busca:focus { border-color: var(--roxo); box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.25); }
+      #limpar-busca {
+        position: absolute; right: 8px;
+        border: 0; background: transparent; color: var(--txt-mute);
+        font-size: 20px; width: 32px; height: 32px; cursor: pointer; border-radius: 8px;
+        display: none;
+      }
+      #limpar-busca:hover { background: var(--panel-2); color: var(--txt); }
+
+      .linha-filtro {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .rotulo-filtro {
+        flex: 0 0 auto;
+        font-size: 0.72rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--txt-mute);
+        padding: 10px 0 2px 2px;
+        min-width: 62px;
+      }
+      .chips {
+        display: flex;
+        gap: 8px;
+        overflow-x: auto;
+        padding: 10px 2px 2px;
+        scrollbar-width: thin;
+        -webkit-overflow-scrolling: touch;
+      }
+      .chip {
+        flex: 0 0 auto;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 9px 14px;
+        min-height: 40px;
+        border-radius: 999px;
+        border: 1px solid var(--linha);
+        background: var(--panel);
+        color: var(--txt-mute);
+        font-size: 0.86rem;
+        font-weight: 600;
+        cursor: pointer;
+        white-space: nowrap;
+        transition: background 0.12s, color 0.12s, border-color 0.12s;
+      }
+      .chip .n {
+        font-variant-numeric: tabular-nums;
+        font-weight: 700;
+        opacity: 0.75;
+        font-size: 0.78rem;
+      }
+      .chip[aria-pressed="true"] {
+        background: linear-gradient(90deg, var(--roxo), #6d49d6);
+        border-color: transparent;
+        color: #fff;
+      }
+      .chip[aria-pressed="true"] .n { opacity: 0.9; }
+
+      /* Toggle "Buracos" — visão de backlog do dono, em destaque. */
+      .barra-buracos {
+        padding: 10px 2px 2px;
+      }
+      .btn-buracos {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 16px;
+        min-height: 42px;
+        border-radius: 999px;
+        border: 1px solid #6b4a1f;
+        background: linear-gradient(90deg, rgba(217, 119, 6, 0.18), rgba(217, 119, 6, 0.08));
+        color: #fcd34d;
+        font-size: 0.86rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background 0.12s, color 0.12s, border-color 0.12s;
+      }
+      .btn-buracos .n {
+        font-variant-numeric: tabular-nums;
+        background: rgba(0, 0, 0, 0.25);
+        border-radius: 999px;
+        padding: 1px 8px;
+      }
+      .btn-buracos[aria-pressed="true"] {
+        background: linear-gradient(90deg, #d97706, #b45309);
+        border-color: transparent;
+        color: #1a1204;
+      }
+      .btn-buracos[aria-pressed="true"] .n { background: rgba(0, 0, 0, 0.18); }
+
+      /* Chips de classificação no card: autoria (procedência) + estágio. */
+      .tags-card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        margin-bottom: 5px;
+      }
+      .tag {
+        font-size: 0.65rem;
+        font-weight: 700;
+        line-height: 1.5;
+        padding: 1px 6px;
+        border-radius: 999px;
+        border: 1px solid var(--linha);
+        background: var(--panel-2);
+        color: var(--txt-mute);
+        white-space: nowrap;
+      }
+      .tag-autoria.tag-dono { color: #6ee7b7; border-color: #1f5e46; }
+      .tag-autoria.tag-ia { color: #93c5fd; border-color: #2c4a7c; }
+      .tag-autoria.tag-terceiro { color: #d8b4fe; border-color: #5b3a80; }
+      .tag-autoria.tag-desconhecida { color: #fca5a5; border-color: #6b2b2b; }
+      .tag-estagio.tag-final { color: #6ee7b7; border-color: #1f5e46; }
+      .tag-estagio.tag-concept { color: #fcd34d; border-color: #6b4a1f; }
+
+      main { max-width: 1500px; margin: 0 auto; padding: 14px 12px 60px; }
+      .contador { color: var(--txt-mute); font-size: 0.85rem; margin: 6px 2px 12px; }
+
+      .grade {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 12px;
+      }
+      @media (max-width: 480px) {
+        .grade { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--linha);
+        border-radius: var(--raio);
+        overflow: hidden;
+        cursor: pointer;
+        text-align: left;
+        padding: 0;
+        color: inherit;
+        font: inherit;
+        content-visibility: auto;
+        contain-intrinsic-size: 210px;
+        transition: transform 0.1s, border-color 0.12s;
+      }
+      .card:hover { border-color: var(--roxo); transform: translateY(-2px); }
+      .card:focus-visible { outline: 2px solid var(--agua); outline-offset: 2px; }
+
+      /* Fundo XADREZ — sem ele não dá pra ver transparência quebrada. */
+      .xadrez {
+        --sq: 12px;
+        background-color: var(--xadrez-a);
+        background-image:
+          linear-gradient(45deg, var(--xadrez-b) 25%, transparent 25%),
+          linear-gradient(-45deg, var(--xadrez-b) 25%, transparent 25%),
+          linear-gradient(45deg, transparent 75%, var(--xadrez-b) 75%),
+          linear-gradient(-45deg, transparent 75%, var(--xadrez-b) 75%);
+        background-size: var(--sq) var(--sq);
+        background-position: 0 0, 0 calc(var(--sq) / 2), calc(var(--sq) / 2) calc(var(--sq) / -2), calc(var(--sq) / -2) 0;
+      }
+      .card .thumb {
+        position: relative;
+        aspect-ratio: 1 / 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .card .thumb img {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        image-rendering: auto;
+        display: block;
+      }
+      .card .meta {
+        padding: 8px 9px 9px;
+      }
+      .card .nome {
+        font-size: 0.78rem;
+        line-height: 1.25;
+        color: var(--txt);
+        word-break: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .card .dim {
+        margin-top: 4px;
+        font-size: 0.7rem;
+        color: var(--txt-mute);
+        font-variant-numeric: tabular-nums;
+      }
+
+      .vazio {
+        text-align: center;
+        color: var(--txt-mute);
+        padding: 60px 20px;
+        font-size: 0.95rem;
+      }
+
+      /* Lightbox */
+      .lightbox {
+        position: fixed;
+        inset: 0;
+        z-index: 50;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        background: rgba(6, 5, 13, 0.86);
+        backdrop-filter: blur(4px);
+      }
+      .lightbox.aberto { display: flex; }
+      .lb-painel {
+        background: var(--panel-2);
+        border: 1px solid var(--linha);
+        border-radius: 18px;
+        box-shadow: var(--sombra);
+        width: min(920px, 100%);
+        max-height: 92vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      .lb-palco {
+        flex: 1 1 auto;
+        min-height: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 14px;
+      }
+      .lb-palco .xadrez {
+        border-radius: 12px;
+        padding: 10px;
+        max-width: 100%;
+        max-height: 62vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .lb-palco img { max-width: 100%; max-height: 60vh; width: auto; height: auto; display: block; }
+      .lb-info {
+        border-top: 1px solid var(--linha);
+        padding: 14px 16px calc(14px + env(safe-area-inset-bottom));
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 18px;
+        align-items: center;
+      }
+      .lb-info .lb-nome { font-weight: 700; word-break: break-all; flex: 1 1 220px; }
+      .lb-info .badges { display: flex; gap: 8px; flex-wrap: wrap; }
+      .badge {
+        font-size: 0.74rem;
+        font-weight: 600;
+        color: var(--txt-mute);
+        background: var(--panel);
+        border: 1px solid var(--linha);
+        border-radius: 8px;
+        padding: 5px 9px;
+        font-variant-numeric: tabular-nums;
+      }
+      .badge.alpha { color: #6ee7b7; border-color: #1f5e46; }
+      .badge.opaco { color: #fca5a5; border-color: #6b2b2b; }
+      .lb-baixar {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #fff;
+        background: linear-gradient(90deg, var(--roxo), #6d49d6);
+        border-radius: 12px;
+        padding: 12px 18px;
+        min-height: 46px;
+      }
+      .lb-baixar:active { transform: translateY(1px); }
+      .lb-fechar {
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        width: 46px;
+        height: 46px;
+        border-radius: 999px;
+        border: 1px solid var(--linha);
+        background: rgba(20, 17, 42, 0.9);
+        color: var(--txt);
+        font-size: 22px;
+        cursor: pointer;
+      }
+      .carregando { text-align: center; color: var(--txt-mute); padding: 50px 20px; }
+    </style>
+  </head>
+  <body>
+    <header class="topo">
+      <div class="titulo">
+        <h1>Galeria de Assets</h1>
+      </div>
+      <p class="subtitulo">
+        Referências dos assets do jogo (<span class="cobertura" id="cobertura">…</span>) — para criar a
+        arte com apoio. Fundo xadrez atrás de cada imagem revela transparência quebrada. Toque para ampliar e baixar.
+      </p>
+    </header>
+
+    <div class="ferramentas">
+      <div class="ferramentas-interna">
+        <div class="busca-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" /><path d="M21 21l-4.3-4.3" stroke-linecap="round" />
+          </svg>
+          <input id="busca" type="search" inputmode="search" autocomplete="off"
+                 placeholder="Buscar por nome (ex.: ignido, plataforma, fogo)…" aria-label="Buscar assets por nome" />
+          <button id="limpar-busca" type="button" aria-label="Limpar busca">×</button>
+        </div>
+        <div class="linha-filtro">
+          <span class="rotulo-filtro">Categoria</span>
+          <div class="chips" id="chips" role="group" aria-label="Filtrar por categoria"></div>
+        </div>
+        <div class="linha-filtro">
+          <span class="rotulo-filtro">Autoria</span>
+          <div class="chips" id="chips-autoria" role="group" aria-label="Filtrar por autoria"></div>
+        </div>
+        <div class="linha-filtro">
+          <span class="rotulo-filtro">Estágio</span>
+          <div class="chips" id="chips-estagio" role="group" aria-label="Filtrar por estágio"></div>
+        </div>
+        <div class="barra-buracos">
+          <button id="btn-buracos" class="btn-buracos" type="button" aria-pressed="false"
+                  title="Mostra só o que ainda NÃO é arte final do dono (placeholders, IA, terceiros, concepts)">
+            🕳️ Buracos <span class="n" id="buracos-n">0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="contador" id="contador"></div>
+      <div class="grade" id="grade" role="list"></div>
+      <div class="vazio" id="vazio" hidden>Nenhum asset encontrado com esse filtro.</div>
+      <div class="carregando" id="carregando">Carregando manifesto…</div>
+    </main>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização do asset">
+      <button class="lb-fechar" id="lb-fechar" type="button" aria-label="Fechar">×</button>
+      <div class="lb-painel" role="document">
+        <div class="lb-palco">
+          <div class="xadrez"><img id="lb-img" alt="" /></div>
+        </div>
+        <div class="lb-info">
+          <div class="lb-nome" id="lb-nome"></div>
+          <div class="badges" id="lb-badges"></div>
+          <a class="lb-baixar" id="lb-baixar" download>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M12 3v12" stroke-linecap="round" /><path d="M7 11l5 5 5-5" stroke-linecap="round" stroke-linejoin="round" /><path d="M5 21h14" stroke-linecap="round" />
+            </svg>
+            Baixar
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Caminhos relativos: funcionam tanto no Pages (/Mythical Rogue/galeria/) quanto local (/galeria/).
+      const URL_ASSETS = '../art/';
+      const urlDe = (caminho) => URL_ASSETS + caminho;
+      const nomeArquivo = (caminho) => caminho.split('/').pop();
+      const semAcento = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
+      const el = (id) => document.getElementById(id);
+      const grade = el('grade');
+      const contador = el('contador');
+      const chipsBox = el('chips');
+      const chipsAutoriaBox = el('chips-autoria');
+      const chipsEstagioBox = el('chips-estagio');
+      const btnBuracos = el('btn-buracos');
+      const inputBusca = el('busca');
+
+      // Autoria (procedência) e estágio: rótulo + emoji, no mesmo padrão dos
+      // dois eixos declarados em config/procedencia-arte.json.
+      const AUTORIA_INFO = {
+        dono: { emoji: '👤', rotulo: 'Meu' },
+        ia: { emoji: '🤖', rotulo: 'IA' },
+        terceiro: { emoji: '📦', rotulo: 'Terceiro' },
+        desconhecida: { emoji: '❓', rotulo: 'Não classificado' },
+      };
+      const ESTAGIO_INFO = {
+        final: { emoji: '✅', rotulo: 'Final' },
+        concept: { emoji: '✏️', rotulo: 'Concept' },
+      };
+      const infoAutoria = (p) => AUTORIA_INFO[p] ?? { emoji: '❓', rotulo: p };
+      const infoEstagio = (e) => ESTAGIO_INFO[e] ?? { emoji: '✏️', rotulo: e };
+
+      // "Buraco" = tudo que NÃO é arte final do dono — a fila de redesenho.
+      const ehBuraco = (it) => it.procedencia !== 'dono' || it.estagio === 'concept';
+
+      let ITENS = [];
+      let filtroCategoria = 'Todos';
+      let filtroAutoria = 'Todos';
+      let filtroEstagio = 'Todos';
+      let somenteBuracos = false;
+      let termoBusca = '';
+
+      function montarChips(categorias, total) {
+        const defs = [{ nome: 'Todos', total }, ...categorias];
+        chipsBox.innerHTML = '';
+        for (const c of defs) {
+          const b = document.createElement('button');
+          b.className = 'chip';
+          b.type = 'button';
+          b.setAttribute('aria-pressed', String(c.nome === filtroCategoria));
+          b.dataset.cat = c.nome;
+          b.innerHTML = `<span>${c.nome}</span><span class="n">${c.total}</span>`;
+          b.addEventListener('click', () => {
+            filtroCategoria = c.nome;
+            for (const outro of chipsBox.children) {
+              outro.setAttribute('aria-pressed', String(outro.dataset.cat === filtroCategoria));
+            }
+            render();
+          });
+          chipsBox.appendChild(b);
+        }
+      }
+
+      /** Monta chips genéricos "Todos" + um valor por chave, contando ITENS. */
+      function montarChipsPorChave(container, chave, infoDe, valorAtualGetter, valorAtualSetter) {
+        const contagem = new Map();
+        for (const it of ITENS) contagem.set(it[chave], (contagem.get(it[chave]) ?? 0) + 1);
+        const valores = [...contagem.keys()].sort();
+        const defs = [{ valor: 'Todos', rotulo: 'Todos', emoji: '', total: ITENS.length }].concat(
+          valores.map((v) => ({ valor: v, rotulo: infoDe(v).rotulo, emoji: infoDe(v).emoji, total: contagem.get(v) })),
+        );
+        container.innerHTML = '';
+        for (const d of defs) {
+          const b = document.createElement('button');
+          b.className = 'chip';
+          b.type = 'button';
+          b.setAttribute('aria-pressed', String(d.valor === valorAtualGetter()));
+          b.dataset.val = d.valor;
+          b.innerHTML = `<span>${d.emoji ? d.emoji + ' ' : ''}${d.rotulo}</span><span class="n">${d.total}</span>`;
+          b.addEventListener('click', () => {
+            valorAtualSetter(d.valor);
+            for (const outro of container.children) {
+              outro.setAttribute('aria-pressed', String(outro.dataset.val === valorAtualGetter()));
+            }
+            render();
+          });
+          container.appendChild(b);
+        }
+      }
+
+      function montarChipsAutoria() {
+        montarChipsPorChave(
+          chipsAutoriaBox,
+          'procedencia',
+          infoAutoria,
+          () => filtroAutoria,
+          (v) => (filtroAutoria = v),
+        );
+      }
+      function montarChipsEstagio() {
+        montarChipsPorChave(
+          chipsEstagioBox,
+          'estagio',
+          infoEstagio,
+          () => filtroEstagio,
+          (v) => (filtroEstagio = v),
+        );
+      }
+
+      function atualizarBuracos() {
+        const n = ITENS.filter(ehBuraco).length;
+        el('buracos-n').textContent = String(n);
+      }
+      btnBuracos.addEventListener('click', () => {
+        somenteBuracos = !somenteBuracos;
+        btnBuracos.setAttribute('aria-pressed', String(somenteBuracos));
+        render();
+      });
+
+      function filtrar() {
+        const termo = semAcento(termoBusca.trim());
+        return ITENS.filter((it) => {
+          if (filtroCategoria !== 'Todos' && it.categoria !== filtroCategoria) return false;
+          if (filtroAutoria !== 'Todos' && it.procedencia !== filtroAutoria) return false;
+          if (filtroEstagio !== 'Todos' && it.estagio !== filtroEstagio) return false;
+          if (somenteBuracos && !ehBuraco(it)) return false;
+          if (termo && !semAcento(it.caminho).includes(termo)) return false;
+          return true;
+        });
+      }
+
+      function render() {
+        const lista = filtrar();
+        contador.textContent =
+          `Mostrando ${lista.length} de ${ITENS.length}` +
+          (filtroCategoria !== 'Todos' ? ` — ${filtroCategoria}` : '') +
+          (filtroAutoria !== 'Todos' ? ` — ${infoAutoria(filtroAutoria).rotulo}` : '') +
+          (filtroEstagio !== 'Todos' ? ` — ${infoEstagio(filtroEstagio).rotulo}` : '') +
+          (somenteBuracos ? ' — 🕳️ Buracos' : '') +
+          (termoBusca.trim() ? ` — "${termoBusca.trim()}"` : '');
+        el('vazio').hidden = lista.length !== 0;
+
+        const frag = document.createDocumentFragment();
+        for (const it of lista) {
+          const a = infoAutoria(it.procedencia);
+          const e = infoEstagio(it.estagio);
+          const card = document.createElement('button');
+          card.className = 'card';
+          card.type = 'button';
+          card.setAttribute('role', 'listitem');
+          card.innerHTML =
+            `<div class="thumb xadrez"><img loading="lazy" decoding="async" src="${urlDe(it.caminho)}" alt="${nomeArquivo(it.caminho)}"></div>` +
+            `<div class="meta">` +
+            `<div class="tags-card">` +
+            `<span class="tag tag-autoria tag-${it.procedencia}">${a.emoji} ${a.rotulo}</span>` +
+            `<span class="tag tag-estagio tag-${it.estagio}">${e.emoji} ${e.rotulo}</span>` +
+            `</div>` +
+            `<div class="nome">${nomeArquivo(it.caminho)}</div>` +
+            `<div class="dim">${it.largura}×${it.altura} · ${it.kb} KB</div></div>`;
+          card.addEventListener('click', () => abrirLightbox(it));
+          frag.appendChild(card);
+        }
+        grade.innerHTML = '';
+        grade.appendChild(frag);
+      }
+
+      // Lightbox
+      const lightbox = el('lightbox');
+      function abrirLightbox(it) {
+        const a = infoAutoria(it.procedencia);
+        const e = infoEstagio(it.estagio);
+        el('lb-img').src = urlDe(it.caminho);
+        el('lb-img').alt = nomeArquivo(it.caminho);
+        el('lb-nome').textContent = it.caminho;
+        el('lb-badges').innerHTML =
+          `<span class="badge">${it.categoria}</span>` +
+          `<span class="badge">${a.emoji} ${a.rotulo}</span>` +
+          `<span class="badge">${e.emoji} ${e.rotulo}</span>` +
+          `<span class="badge">${it.largura}×${it.altura}px</span>` +
+          `<span class="badge">${it.kb} KB</span>` +
+          (it.alpha ? '<span class="badge alpha">alpha ✓</span>' : '<span class="badge opaco">sem alpha</span>');
+        const baixar = el('lb-baixar');
+        baixar.href = urlDe(it.caminho);
+        baixar.setAttribute('download', nomeArquivo(it.caminho));
+        lightbox.classList.add('aberto');
+        document.body.style.overflow = 'hidden';
+      }
+      function fecharLightbox() {
+        lightbox.classList.remove('aberto');
+        document.body.style.overflow = '';
+        el('lb-img').src = '';
+      }
+      el('lb-fechar').addEventListener('click', fecharLightbox);
+      lightbox.addEventListener('click', (e) => { if (e.target === lightbox) fecharLightbox(); });
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape') fecharLightbox(); });
+
+      // Busca (debounce)
+      let t = null;
+      inputBusca.addEventListener('input', () => {
+        termoBusca = inputBusca.value;
+        el('limpar-busca').style.display = termoBusca ? 'block' : 'none';
+        clearTimeout(t);
+        t = setTimeout(render, 120);
+      });
+      el('limpar-busca').addEventListener('click', () => {
+        inputBusca.value = '';
+        termoBusca = '';
+        el('limpar-busca').style.display = 'none';
+        render();
+        inputBusca.focus();
+      });
+
+      // Busca pré-preenchida por querystring (?q=nome). É o que permite ao Hub — que embute esta
+      // página num iframe — PULAR direto pro asset que o usuário achou na busca global. Sem isso a
+      // busca do Hub conseguia listar o asset mas não conseguia mostrá-lo (fronteira de documento).
+      (function () {
+        try {
+          const q = new URLSearchParams(location.search).get('q');
+          if (q) {
+            termoBusca = q;
+            inputBusca.value = q;
+            el('limpar-busca').style.display = 'block';
+          }
+        } catch (e) {
+          /* querystring inválida não pode derrubar a galeria */
+        }
+      })();
+
+      // Carrega o manifesto DERIVADO do filesystem (nunca à mão).
+      fetch('./manifesto.json')
+        .then((r) => {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
+        })
+        .then((m) => {
+          ITENS = m.itens;
+          el('carregando').hidden = true;
+          el('cobertura').textContent = `${m.total} imagens · ${m.categorias.length} categorias`;
+          montarChips(m.categorias, m.total);
+          montarChipsAutoria();
+          montarChipsEstagio();
+          atualizarBuracos();
+          render();
+        })
+        .catch((err) => {
+          el('carregando').innerHTML =
+            'Não foi possível carregar <code>manifesto.json</code>. Rode <code>npm run galeria</code> e publique.<br><small>' +
+            String(err) + '</small>';
+        });
+    </script>
+  </body>
+</html>

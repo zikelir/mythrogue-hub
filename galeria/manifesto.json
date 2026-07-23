@@ -1,0 +1,2085 @@
+{
+  "total": 205,
+  "categorias": [
+    {
+      "nome": "UI · Habilidades",
+      "total": 131
+    },
+    {
+      "nome": "Criaturas",
+      "total": 45
+    },
+    {
+      "nome": "Tiles",
+      "total": 9
+    },
+    {
+      "nome": "Biomas",
+      "total": 8
+    },
+    {
+      "nome": "UI · Elementos",
+      "total": 8
+    },
+    {
+      "nome": "Cenário",
+      "total": 3
+    },
+    {
+      "nome": "Herói",
+      "total": 1
+    }
+  ],
+  "itens": [
+    {
+      "caminho": "biomas/sugi_bg_abismo.jpg",
+      "categoria": "Biomas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 0,
+      "altura": 0,
+      "kb": 220,
+      "alpha": false
+    },
+    {
+      "caminho": "biomas/sugi_bg_caverna.jpg",
+      "categoria": "Biomas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 0,
+      "altura": 0,
+      "kb": 201.1,
+      "alpha": false
+    },
+    {
+      "caminho": "biomas/sugi_bg_costa.jpg",
+      "categoria": "Biomas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 0,
+      "altura": 0,
+      "kb": 199.2,
+      "alpha": false
+    },
+    {
+      "caminho": "biomas/sugi_bg_desfiladeiro.jpg",
+      "categoria": "Biomas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 0,
+      "altura": 0,
+      "kb": 158.3,
+      "alpha": false
+    },
+    {
+      "caminho": "biomas/sugi_bg_floresta.jpg",
+      "categoria": "Biomas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 0,
+      "altura": 0,
+      "kb": 199.1,
+      "alpha": false
+    },
+    {
+      "caminho": "biomas/sugi_bg_luz_corrompida.jpg",
+      "categoria": "Biomas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 0,
+      "altura": 0,
+      "kb": 220.4,
+      "alpha": false
+    },
+    {
+      "caminho": "biomas/sugi_bg_pico.jpg",
+      "categoria": "Biomas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 0,
+      "altura": 0,
+      "kb": 212.3,
+      "alpha": false
+    },
+    {
+      "caminho": "biomas/sugi_bg_tempestade.jpg",
+      "categoria": "Biomas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 0,
+      "altura": 0,
+      "kb": 157.8,
+      "alpha": false
+    },
+    {
+      "caminho": "cenario/Rock1-lg.png",
+      "categoria": "Cenário",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 231,
+      "altura": 243,
+      "kb": 70.5,
+      "alpha": true
+    },
+    {
+      "caminho": "cenario/Rock1-md.png",
+      "categoria": "Cenário",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 132,
+      "altura": 135,
+      "kb": 30.8,
+      "alpha": true
+    },
+    {
+      "caminho": "cenario/Rock1-sm.png",
+      "categoria": "Cenário",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 45,
+      "altura": 44,
+      "kb": 4.9,
+      "alpha": true
+    },
+    {
+      "caminho": "heroi/heroi_base.png",
+      "categoria": "Herói",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 172,
+      "altura": 320,
+      "kb": 58.7,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/brisa.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 104,
+      "altura": 174,
+      "kb": 24.6,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/centelha.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 178,
+      "altura": 244,
+      "kb": 43.1,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/ciclonus.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 50,
+      "altura": 72,
+      "kb": 6,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/cristal_terra.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 210,
+      "altura": 202,
+      "kb": 40.4,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/devorador_almas.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 223,
+      "altura": 226,
+      "kb": 60.2,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/exemplo_agua.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 16,
+      "altura": 16,
+      "kb": 0.3,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/exemplo_mato.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 16,
+      "altura": 16,
+      "kb": 0.3,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/faisca.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 228,
+      "altura": 205,
+      "kb": 44.2,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/flora.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 204,
+      "altura": 188,
+      "kb": 48.5,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/floravelha.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 219,
+      "altura": 189,
+      "kb": 49.8,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/fulminator.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 113,
+      "altura": 106,
+      "kb": 14.3,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/geodo.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 91,
+      "altura": 93,
+      "kb": 14,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/hydro.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 211,
+      "altura": 118,
+      "kb": 37.2,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/ignido.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 375,
+      "altura": 512,
+      "kb": 123.7,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/ignidraco.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 224,
+      "altura": 219,
+      "kb": 51.9,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/ignisaur.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 204,
+      "altura": 213,
+      "kb": 56.7,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/ignivoro.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 223,
+      "altura": 175,
+      "kb": 50,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/lux_corrompida_menor.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 178,
+      "altura": 206,
+      "kb": 53.7,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/luxnar.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 111,
+      "altura": 83,
+      "kb": 15,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/magmarok.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 175,
+      "altura": 216,
+      "kb": 38,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/mareal.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 91,
+      "altura": 92,
+      "kb": 16.5,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/maresia.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 199,
+      "altura": 153,
+      "kb": 36.2,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/nyx_spawn.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 243,
+      "altura": 243,
+      "kb": 67.9,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/ondarius.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 115,
+      "altura": 115,
+      "kb": 21.6,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/ondira.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 137,
+      "altura": 138,
+      "kb": 26.6,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/petros.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 186,
+      "altura": 201,
+      "kb": 45.1,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/pirotico.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 188,
+      "altura": 177,
+      "kb": 37.3,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/rastejante_mato.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 170,
+      "altura": 146,
+      "kb": 32.7,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/refrao_luz.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 192,
+      "altura": 235,
+      "kb": 48.9,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/rocha_viva.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 177,
+      "altura": 126,
+      "kb": 33.3,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/rochuro.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 102,
+      "altura": 105,
+      "kb": 19.1,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/sereia_coral.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 210,
+      "altura": 186,
+      "kb": 56.4,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/sombra_rasante.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 89,
+      "altura": 92,
+      "kb": 13.4,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/sussurro_vazio.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 150,
+      "altura": 236,
+      "kb": 41.4,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/tempestade_alta.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 200,
+      "altura": 199,
+      "kb": 44.4,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/terragigas.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 126,
+      "altura": 153,
+      "kb": 21.3,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/terrestre_floresta.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 91,
+      "altura": 88,
+      "kb": 12.5,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/trovao_negro.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 195,
+      "altura": 204,
+      "kb": 42.9,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/umbra_menor.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 31,
+      "altura": 74,
+      "kb": 3.2,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/venturo.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 205,
+      "altura": 179,
+      "kb": 40.8,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/verdescente.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 196,
+      "altura": 199,
+      "kb": 44,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/voltick.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 194,
+      "altura": 208,
+      "kb": 45,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/voltrax.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 135,
+      "altura": 128,
+      "kb": 19.1,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/zefirito.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 189,
+      "altura": 205,
+      "kb": 38.9,
+      "alpha": true
+    },
+    {
+      "caminho": "monstros/zefiro.png",
+      "categoria": "Criaturas",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 181,
+      "altura": 229,
+      "kb": 44.6,
+      "alpha": true
+    },
+    {
+      "caminho": "tiles/figma_tile_agua.png",
+      "categoria": "Tiles",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 200,
+      "altura": 200,
+      "kb": 80.1,
+      "alpha": true
+    },
+    {
+      "caminho": "tiles/figma_tile_corrupta.png",
+      "categoria": "Tiles",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 200,
+      "altura": 200,
+      "kb": 65.8,
+      "alpha": true
+    },
+    {
+      "caminho": "tiles/figma_tile_fogo.png",
+      "categoria": "Tiles",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 200,
+      "altura": 200,
+      "kb": 76.8,
+      "alpha": true
+    },
+    {
+      "caminho": "tiles/figma_tile_luz.png",
+      "categoria": "Tiles",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 200,
+      "altura": 200,
+      "kb": 62,
+      "alpha": true
+    },
+    {
+      "caminho": "tiles/figma_tile_mato.png",
+      "categoria": "Tiles",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 200,
+      "altura": 200,
+      "kb": 79,
+      "alpha": true
+    },
+    {
+      "caminho": "tiles/figma_tile_raio.png",
+      "categoria": "Tiles",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 200,
+      "altura": 200,
+      "kb": 76.8,
+      "alpha": true
+    },
+    {
+      "caminho": "tiles/figma_tile_sombra.png",
+      "categoria": "Tiles",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 200,
+      "altura": 200,
+      "kb": 63.3,
+      "alpha": true
+    },
+    {
+      "caminho": "tiles/figma_tile_terra.png",
+      "categoria": "Tiles",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 200,
+      "altura": 200,
+      "kb": 77.3,
+      "alpha": true
+    },
+    {
+      "caminho": "tiles/figma_tile_vento.png",
+      "categoria": "Tiles",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 200,
+      "altura": 200,
+      "kb": 64.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/elementos/agua.png",
+      "categoria": "UI · Elementos",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 63,
+      "altura": 64,
+      "kb": 6.8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/elementos/fogo.png",
+      "categoria": "UI · Elementos",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 57,
+      "altura": 64,
+      "kb": 5.2,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/elementos/luz.png",
+      "categoria": "UI · Elementos",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 59,
+      "altura": 64,
+      "kb": 7.5,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/elementos/mato.png",
+      "categoria": "UI · Elementos",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 64,
+      "altura": 63,
+      "kb": 7.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/elementos/raio.png",
+      "categoria": "UI · Elementos",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 64,
+      "altura": 64,
+      "kb": 6.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/elementos/sombra.png",
+      "categoria": "UI · Elementos",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 64,
+      "altura": 61,
+      "kb": 6.5,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/elementos/terra.png",
+      "categoria": "UI · Elementos",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 64,
+      "altura": 64,
+      "kb": 6.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/elementos/vento.png",
+      "categoria": "UI · Elementos",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 64,
+      "altura": 64,
+      "kb": 6.9,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/abismo.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 14,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/aniquilador.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 120,
+      "altura": 128,
+      "kb": 18.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/apocalipse_terrestre.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 118,
+      "altura": 115,
+      "kb": 23.6,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/apoteose.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 113,
+      "altura": 128,
+      "kb": 15.5,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/arco_voltaico.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 13.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/avalanche.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 123,
+      "kb": 19.9,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/biosfera.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 118,
+      "altura": 128,
+      "kb": 18.2,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/bola_fogo.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 111,
+      "altura": 128,
+      "kb": 15.6,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/brasa_chao.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 12.6,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/campo_espinhos_zona.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 112,
+      "altura": 110,
+      "kb": 22.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/campo_estatico.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 118,
+      "altura": 128,
+      "kb": 14,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/cataclismo.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 119,
+      "altura": 128,
+      "kb": 16.8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/chama_cortante.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 119,
+      "altura": 128,
+      "kb": 11.9,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/ciclone.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 121,
+      "altura": 128,
+      "kb": 15.8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/colapso.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 118,
+      "kb": 21.6,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/colosso.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 122,
+      "altura": 128,
+      "kb": 20.2,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/corrente_cone.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 119,
+      "altura": 128,
+      "kb": 23.9,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/corrente_viva.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 127,
+      "kb": 25,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_agua.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 15.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_agua_max.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 0.2,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_agua_plus.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 127,
+      "kb": 24.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_fogo.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 82,
+      "altura": 128,
+      "kb": 13.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_fogo_max.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 127,
+      "altura": 128,
+      "kb": 23.2,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_fogo_plus.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 11.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_luz.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 10.6,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_mato.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 124,
+      "kb": 26.8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_mato_max.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 19.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_mato_plus.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 102,
+      "altura": 128,
+      "kb": 20.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_raio.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_raio_max.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 12.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_raio_plus.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 118,
+      "altura": 128,
+      "kb": 21.5,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_sombra.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 126,
+      "altura": 128,
+      "kb": 23.2,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_terra.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 10.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_terra_max.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 127,
+      "kb": 25.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_terra_plus.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 121,
+      "altura": 128,
+      "kb": 22.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_vento.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 13.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_vento_max.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 10.5,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/dash_vento_plus.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 21.8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/descarga_area.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 110,
+      "kb": 22.6,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/descarga_cone.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 6.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/descarga_plasma.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 124,
+      "altura": 128,
+      "kb": 14.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/descarga_rapida.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 126,
+      "kb": 19.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/deslizamento.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 109,
+      "kb": 14.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/devorar.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 125,
+      "kb": 18.6,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/diluvio.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 116,
+      "kb": 13.9,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/eclipse.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 21.5,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/enredamento.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 13.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/erupcao.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 126,
+      "kb": 22.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/erupcao_verde.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 120,
+      "kb": 16.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/espinheiro.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 19.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/esporo_projetil.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 112,
+      "altura": 128,
+      "kb": 28.9,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/estilhacos.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 94,
+      "kb": 12.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/fissura.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 125,
+      "kb": 17.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/florescencia_viva.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 126,
+      "kb": 21,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/folhas_corte.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 110,
+      "altura": 128,
+      "kb": 15.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/fragmento_rochoso.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 110,
+      "kb": 16.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/fulgor.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 125,
+      "altura": 128,
+      "kb": 15.8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/furacao.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 0.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/garra_umbral.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 127,
+      "kb": 24.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/golpe_labareda.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 109,
+      "altura": 128,
+      "kb": 17.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/golpe_ventania.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 8.8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/halo.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 24.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/hiperciclone.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 123,
+      "altura": 128,
+      "kb": 18.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/holocausto.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 78,
+      "altura": 128,
+      "kb": 14.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/incineracao.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 15.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/inferno.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 14,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/inferno_chao.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 126,
+      "kb": 23.6,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/investida_chama.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 20.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/ion_chao.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 125,
+      "kb": 24.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/ionizacao.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 113,
+      "kb": 12.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/jato_agua.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 8.8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/jato_cortante.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 23,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/jato_pressao.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 14.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/julgamento.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 124,
+      "altura": 128,
+      "kb": 13.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/labareda_rapida.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 92,
+      "altura": 90,
+      "kb": 11.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/lamina_ar.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 16,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/lufada_cortante.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 123,
+      "altura": 128,
+      "kb": 19.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/mare_negra.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 122,
+      "kb": 25,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/mare_profunda.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 9.8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/mare_torrencial.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 17.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/mare_viva.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 127,
+      "kb": 21.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/mata_viva.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 17.9,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/meteoro.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 108,
+      "kb": 14.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/meteoro_projetil.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 127,
+      "kb": 11.5,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/montanha.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 126,
+      "altura": 128,
+      "kb": 17.9,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/olho_tempestade.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 124,
+      "altura": 128,
+      "kb": 14.6,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/orbe_voltaico.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 18.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/pancada_eletrica.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 12.6,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/piroclasma.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 108,
+      "kb": 12,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/piroclasma_cone.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 17,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/poco_mare.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 7.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/punho_pedra.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 121,
+      "altura": 128,
+      "kb": 24.5,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/radiancia.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 18.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/raio_cruzado.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 123,
+      "altura": 128,
+      "kb": 26.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/raio_solar.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 15.9,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/rajada_ignea.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 26.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/redemoinho.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 23.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/redemoinho_ar.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 113,
+      "kb": 21,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/rocha_estilhacada.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 123,
+      "kb": 25,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/selva_viva.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 23.9,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/sifao_sombrio.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 126,
+      "kb": 32.9,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/sobrecarga.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 125,
+      "kb": 19.9,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/supernova.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 117,
+      "altura": 128,
+      "kb": 21.8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/surto_fogo.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 16.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/tapa_agua.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 106,
+      "kb": 12.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/tempestade.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 10.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/tempestade_eletrica.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 115,
+      "altura": 128,
+      "kb": 15.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/terremoto.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 13.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/tornado.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 12.8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/trovao.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 126,
+      "kb": 14.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/tsunami.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 13.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/vendaval.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 16,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/vinha_espiral.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 110,
+      "altura": 128,
+      "kb": 12.2,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/assinatura/vinha_golpe.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 117,
+      "altura": 128,
+      "kb": 12.6,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/combo/agua_golpe_unico.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 124,
+      "kb": 17.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/combo/fogo_golpe_area.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 127,
+      "altura": 128,
+      "kb": 19.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/combo/fogo_golpe_unico.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/combo/mato_golpe_area.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 21,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/combo/mato_golpe_unico.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 123,
+      "kb": 16.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/combo/raio_golpe_area.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 15.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/combo/raio_golpe_unico.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 22.5,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/combo/terra_golpe_area.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 24.8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/combo/terra_golpe_unico.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 85,
+      "altura": 86,
+      "kb": 12.9,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/combo/vento_dash.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 13.4,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/dash.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 10.8,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/golpe_area.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 113,
+      "kb": 23.7,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/golpe_cone.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 110,
+      "kb": 13.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/golpe_melee.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 14.2,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/golpe_unico.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 10.1,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/projetil.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 128,
+      "kb": 18.3,
+      "alpha": true
+    },
+    {
+      "caminho": "ui/habilidades/zona_chao.png",
+      "categoria": "UI · Habilidades",
+      "procedencia": "desconhecida",
+      "estagio": "concept",
+      "largura": 128,
+      "altura": 102,
+      "kb": 14.6,
+      "alpha": true
+    }
+  ]
+}
