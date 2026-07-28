@@ -1,0 +1,990 @@
+{
+  "_nota": "Gerado por scripts/montar-acervo-audio.mjs. \"usos\" = onde toca no jogo.",
+  "total": 118,
+  "musicas": 68,
+  "sons": 50,
+  "kb_total": 78225,
+  "eventos_mudos": [],
+  "orfaos": [
+    "bgm/Awake.ogg",
+    "bgm/BadNewsJingle.ogg",
+    "bgm/Boss_Of_The_Iron_Woods.ogg",
+    "bgm/Crocus.ogg",
+    "bgm/DogDays.ogg",
+    "bgm/Drift.ogg",
+    "bgm/FireflyField.ogg",
+    "bgm/FullSteam.ogg",
+    "bgm/Gentle.ogg",
+    "bgm/Geometric_Gateway.ogg",
+    "bgm/GoneFishin.ogg",
+    "bgm/GoodnightHolly.ogg",
+    "bgm/GrassyPlains.ogg",
+    "bgm/King_of_the_Rotting_Path.ogg",
+    "bgm/Memory.ogg",
+    "bgm/MovingOn.ogg",
+    "bgm/NewDay.ogg",
+    "bgm/OrchardSunset.ogg",
+    "bgm/PastureSpring.ogg",
+    "bgm/SandAndSurfboards.ogg",
+    "bgm/SceneFromAbove.ogg",
+    "bgm/ShardLake.ogg",
+    "bgm/SnowdropWaltz.ogg",
+    "bgm/SnowedIn.ogg",
+    "bgm/Tectonic_Heartbeat_magma.ogg",
+    "bgm/Tectonic_Surge.ogg",
+    "bgm/TwilightStroll.ogg",
+    "sfx/golpe_choque.wav",
+    "sfx/golpe_gelo.wav",
+    "sfx/pulo_duplo.wav"
+  ],
+  "bgm_monotonia": [
+    {
+      "contexto": "boss_final",
+      "n": 1,
+      "faixas": [
+        "solar_apex_collision"
+      ]
+    },
+    {
+      "contexto": "boss_padrao",
+      "n": 1,
+      "faixas": [
+        "last_stand"
+      ]
+    },
+    {
+      "contexto": "padrao",
+      "n": 1,
+      "faixas": [
+        "battle_theme"
+      ]
+    },
+    {
+      "contexto": "salas.caos",
+      "n": 1,
+      "faixas": [
+        "withered"
+      ]
+    },
+    {
+      "contexto": "salas.elite",
+      "n": 1,
+      "faixas": [
+        "last_dance"
+      ]
+    },
+    {
+      "contexto": "salas.erebo",
+      "n": 1,
+      "faixas": [
+        "ancient_halls"
+      ]
+    },
+    {
+      "contexto": "salas.fonte",
+      "n": 1,
+      "faixas": [
+        "rest_now"
+      ]
+    },
+    {
+      "contexto": "salas.loja",
+      "n": 1,
+      "faixas": [
+        "the_city_wakes"
+      ]
+    }
+  ],
+  "itens": [
+    {
+      "caminho": "bgm/Above_the_Cloud_Line.ogg",
+      "kb": 1491.8,
+      "tipo": "musica",
+      "usos": [
+        "biomas.pico.0"
+      ]
+    },
+    {
+      "caminho": "bgm/Above_The_Storm_Line.ogg",
+      "kb": 1199.6,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.pico.0"
+      ]
+    },
+    {
+      "caminho": "bgm/AncientHalls.ogg",
+      "kb": 1535.6,
+      "tipo": "musica",
+      "usos": [
+        "salas.erebo.0"
+      ]
+    },
+    {
+      "caminho": "bgm/Awake.ogg",
+      "kb": 325.8,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/BadNewsJingle.ogg",
+      "kb": 104.2,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/BattleTheme.ogg",
+      "kb": 896.2,
+      "tipo": "musica",
+      "usos": [
+        "padrao.0"
+      ]
+    },
+    {
+      "caminho": "bgm/Beneath_The_Glowing_Boughs.ogg",
+      "kb": 1872.2,
+      "tipo": "musica",
+      "usos": [
+        "biomas.floresta.1"
+      ]
+    },
+    {
+      "caminho": "bgm/Beneath_the_Knot_forest_boss.ogg",
+      "kb": 1819.4,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.floresta.0"
+      ]
+    },
+    {
+      "caminho": "bgm/boss_abismo_epic.ogg",
+      "kb": 1415.4,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.abismo.1"
+      ]
+    },
+    {
+      "caminho": "bgm/boss_caverna_epic.ogg",
+      "kb": 1501.1,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.caverna.1"
+      ]
+    },
+    {
+      "caminho": "bgm/boss_costa_epic.ogg",
+      "kb": 1333,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.costa.1"
+      ]
+    },
+    {
+      "caminho": "bgm/boss_desfiladeiro_epic.ogg",
+      "kb": 1408.7,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.desfiladeiro.1"
+      ]
+    },
+    {
+      "caminho": "bgm/boss_floresta_epic.ogg",
+      "kb": 1462,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.floresta.1"
+      ]
+    },
+    {
+      "caminho": "bgm/boss_luz_corrompida_epic.ogg",
+      "kb": 1462.9,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.luz_corrompida.1"
+      ]
+    },
+    {
+      "caminho": "bgm/Boss_Of_The_Iron_Woods.ogg",
+      "kb": 1552.2,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/boss_pico_epic.ogg",
+      "kb": 1331.1,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.pico.1"
+      ]
+    },
+    {
+      "caminho": "bgm/boss_tempestade_epic.ogg",
+      "kb": 1413.9,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.tempestade.1"
+      ]
+    },
+    {
+      "caminho": "bgm/CloudCover.ogg",
+      "kb": 612.7,
+      "tipo": "musica",
+      "usos": [
+        "biomas.pico.1"
+      ]
+    },
+    {
+      "caminho": "bgm/Copper_Path_Burning.ogg",
+      "kb": 1631.6,
+      "tipo": "musica",
+      "usos": [
+        "biomas.desfiladeiro.1"
+      ]
+    },
+    {
+      "caminho": "bgm/CrimsonCanyon.ogg",
+      "kb": 676.8,
+      "tipo": "musica",
+      "usos": [
+        "biomas.desfiladeiro.0"
+      ]
+    },
+    {
+      "caminho": "bgm/Crocus.ogg",
+      "kb": 583.7,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/DeepWoods.ogg",
+      "kb": 1273.4,
+      "tipo": "musica",
+      "usos": [
+        "biomas.floresta.0"
+      ]
+    },
+    {
+      "caminho": "bgm/DogDays.ogg",
+      "kb": 672.9,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/Drift.ogg",
+      "kb": 256.5,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/FireflyField.ogg",
+      "kb": 598.6,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/FullSteam.ogg",
+      "kb": 339.6,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/Gentle.ogg",
+      "kb": 898.1,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/Geometric_Gateway.ogg",
+      "kb": 1786.4,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/GoneFishin.ogg",
+      "kb": 779.3,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/GoodnightHolly.ogg",
+      "kb": 1086.2,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/GrassyPlains.ogg",
+      "kb": 1030,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/Homecoming.ogg",
+      "kb": 139.9,
+      "tipo": "musica",
+      "usos": [
+        "hub.1"
+      ]
+    },
+    {
+      "caminho": "bgm/King_of_the_Rotting_Path.ogg",
+      "kb": 1340.3,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/LastDance.ogg",
+      "kb": 852,
+      "tipo": "musica",
+      "usos": [
+        "salas.elite.0"
+      ]
+    },
+    {
+      "caminho": "bgm/LastStand.ogg",
+      "kb": 979.6,
+      "tipo": "musica",
+      "usos": [
+        "boss_padrao.0"
+      ]
+    },
+    {
+      "caminho": "bgm/Magma_Crown.ogg",
+      "kb": 1322.8,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.desfiladeiro.0"
+      ]
+    },
+    {
+      "caminho": "bgm/Memory.ogg",
+      "kb": 795,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/MovingOn.ogg",
+      "kb": 1036,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/NewDay.ogg",
+      "kb": 603.8,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/Nightlife.ogg",
+      "kb": 989.9,
+      "tipo": "musica",
+      "usos": [
+        "biomas.abismo.1"
+      ]
+    },
+    {
+      "caminho": "bgm/Obsidian_Plates_Collide_nyxar.ogg",
+      "kb": 1909.5,
+      "tipo": "musica",
+      "usos": [
+        "biomas.abismo.0",
+        "boss_biomas.abismo.0"
+      ]
+    },
+    {
+      "caminho": "bgm/Obsidian_Plates_Collide.ogg",
+      "kb": 1862.5,
+      "tipo": "musica",
+      "usos": [
+        "biomas.abismo.0",
+        "boss_biomas.abismo.0"
+      ]
+    },
+    {
+      "caminho": "bgm/OrchardSunset.ogg",
+      "kb": 642.9,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/PastureSpring.ogg",
+      "kb": 938.1,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/Prismatic_Apex_light.ogg",
+      "kb": 1445,
+      "tipo": "musica",
+      "usos": [
+        "biomas.luz_corrompida.0"
+      ]
+    },
+    {
+      "caminho": "bgm/Pull_of_the_Deep_Current.ogg",
+      "kb": 1639.3,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.costa.0"
+      ]
+    },
+    {
+      "caminho": "bgm/RestNow.ogg",
+      "kb": 638,
+      "tipo": "musica",
+      "usos": [
+        "salas.fonte.0"
+      ]
+    },
+    {
+      "caminho": "bgm/RustingSkylines.ogg",
+      "kb": 2196.7,
+      "tipo": "musica",
+      "usos": [
+        "biomas.tempestade.0"
+      ]
+    },
+    {
+      "caminho": "bgm/SandAndSurfboards.ogg",
+      "kb": 621.9,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/SceneFromAbove.ogg",
+      "kb": 745.5,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/SeafoamValley.ogg",
+      "kb": 661.3,
+      "tipo": "musica",
+      "usos": [
+        "biomas.costa.0"
+      ]
+    },
+    {
+      "caminho": "bgm/SecretOfTheDungeon.ogg",
+      "kb": 988.5,
+      "tipo": "musica",
+      "usos": [
+        "biomas.caverna.1"
+      ]
+    },
+    {
+      "caminho": "bgm/ShardLake.ogg",
+      "kb": 654.3,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/SnowdropWaltz.ogg",
+      "kb": 1291,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/SnowedIn.ogg",
+      "kb": 658.8,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/Solar_Apex_Collision.ogg",
+      "kb": 1187.9,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.luz_corrompida.0",
+        "boss_final.0"
+      ]
+    },
+    {
+      "caminho": "bgm/Tectonic_Grip.ogg",
+      "kb": 1334.4,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.caverna.0"
+      ]
+    },
+    {
+      "caminho": "bgm/Tectonic_Heartbeat_magma.ogg",
+      "kb": 1540,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/Tectonic_Surge.ogg",
+      "kb": 1822,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/Teeth_of_the_Machine.ogg",
+      "kb": 1353.9,
+      "tipo": "musica",
+      "usos": [
+        "biomas.tempestade.1"
+      ]
+    },
+    {
+      "caminho": "bgm/Terminal_Voltage.ogg",
+      "kb": 1632.6,
+      "tipo": "musica",
+      "usos": [
+        "boss_biomas.tempestade.0"
+      ]
+    },
+    {
+      "caminho": "bgm/TheCityWakes.ogg",
+      "kb": 970.2,
+      "tipo": "musica",
+      "usos": [
+        "salas.loja.0"
+      ]
+    },
+    {
+      "caminho": "bgm/TheSunStillRises.ogg",
+      "kb": 761.1,
+      "tipo": "musica",
+      "usos": [
+        "biomas.luz_corrompida.1"
+      ]
+    },
+    {
+      "caminho": "bgm/Twelve_Fathoms_Down_water.ogg",
+      "kb": 1822.2,
+      "tipo": "musica",
+      "usos": [
+        "biomas.costa.1"
+      ]
+    },
+    {
+      "caminho": "bgm/TwilightStroll.ogg",
+      "kb": 753,
+      "tipo": "musica",
+      "usos": []
+    },
+    {
+      "caminho": "bgm/Weight_of_the_Cavern_stone_or_earth.ogg",
+      "kb": 1765.7,
+      "tipo": "musica",
+      "usos": [
+        "biomas.caverna.0"
+      ]
+    },
+    {
+      "caminho": "bgm/Where_The_Sun_Rests_hub_or_vilage.ogg",
+      "kb": 1719.2,
+      "tipo": "musica",
+      "usos": [
+        "hub.0"
+      ]
+    },
+    {
+      "caminho": "bgm/Withered.ogg",
+      "kb": 890.3,
+      "tipo": "musica",
+      "usos": [
+        "salas.caos.0"
+      ]
+    },
+    {
+      "caminho": "sfx/dano_recebido.wav",
+      "kb": 29.3,
+      "tipo": "som",
+      "usos": [
+        "dano_recebido"
+      ]
+    },
+    {
+      "caminho": "sfx/dash.wav",
+      "kb": 31.1,
+      "tipo": "som",
+      "usos": [
+        "dash_extra"
+      ]
+    },
+    {
+      "caminho": "sfx/golpe_choque.wav",
+      "kb": 36.2,
+      "tipo": "som",
+      "usos": []
+    },
+    {
+      "caminho": "sfx/golpe_fogo.wav",
+      "kb": 43.1,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_fogo"
+      ]
+    },
+    {
+      "caminho": "sfx/golpe_gelo.wav",
+      "kb": 47.4,
+      "tipo": "som",
+      "usos": []
+    },
+    {
+      "caminho": "sfx/golpe_planta.wav",
+      "kb": 50,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_mato"
+      ]
+    },
+    {
+      "caminho": "sfx/moeda.wav",
+      "kb": 32.8,
+      "tipo": "som",
+      "usos": [
+        "moeda"
+      ]
+    },
+    {
+      "caminho": "sfx/morte_inimigo.wav",
+      "kb": 70.7,
+      "tipo": "som",
+      "usos": [
+        "morte_inimigo"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/boss_entrada_1.ogg",
+      "kb": 41,
+      "tipo": "som",
+      "usos": [
+        "boss_entrada"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/boss_entrada_2.ogg",
+      "kb": 37.6,
+      "tipo": "som",
+      "usos": [
+        "boss_entrada"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_agua_1.ogg",
+      "kb": 37.8,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_agua"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_agua_2.ogg",
+      "kb": 21.8,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_agua"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_agua_3.ogg",
+      "kb": 32.1,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_agua"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_agua_4.ogg",
+      "kb": 30.3,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_agua"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_raio_1.ogg",
+      "kb": 14.6,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_raio"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_raio_2.ogg",
+      "kb": 17,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_raio"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_raio_3.ogg",
+      "kb": 19,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_raio"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_raio_4.ogg",
+      "kb": 16.1,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_raio"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_terra_1.ogg",
+      "kb": 14.8,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_terra"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_terra_2.ogg",
+      "kb": 15.2,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_terra"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_terra_3.ogg",
+      "kb": 25.1,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_terra"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_terra_4.ogg",
+      "kb": 16,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_terra"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_vento_1.ogg",
+      "kb": 15.5,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_vento"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_vento_2.ogg",
+      "kb": 23,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_vento"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_vento_3.ogg",
+      "kb": 18.8,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_vento"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/golpe_vento_4.ogg",
+      "kb": 18.3,
+      "tipo": "som",
+      "usos": [
+        "golpe_elemento_vento"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/passo_grama_1.ogg",
+      "kb": 7.4,
+      "tipo": "som",
+      "usos": [
+        "passos"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/passo_grama_2.ogg",
+      "kb": 8.8,
+      "tipo": "som",
+      "usos": [
+        "passos"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/passo_grama_3.ogg",
+      "kb": 8.6,
+      "tipo": "som",
+      "usos": [
+        "passos"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/passo_grama_4.ogg",
+      "kb": 8.5,
+      "tipo": "som",
+      "usos": [
+        "passos"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/passo_lama_1.ogg",
+      "kb": 8.3,
+      "tipo": "som",
+      "usos": [
+        "passos_lama"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/passo_lama_2.ogg",
+      "kb": 9.5,
+      "tipo": "som",
+      "usos": [
+        "passos_lama"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/passo_lama_3.ogg",
+      "kb": 8.6,
+      "tipo": "som",
+      "usos": [
+        "passos_lama"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/portal_dim_1.ogg",
+      "kb": 21.4,
+      "tipo": "som",
+      "usos": [
+        "portal"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/portal_dim_2.ogg",
+      "kb": 20.8,
+      "tipo": "som",
+      "usos": [
+        "portal"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/portal_dim_3.ogg",
+      "kb": 20.9,
+      "tipo": "som",
+      "usos": [
+        "portal"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/power_up_1.ogg",
+      "kb": 22.4,
+      "tipo": "som",
+      "usos": [
+        "bencao_recebida",
+        "carga_arco_completa"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/power_up_2.ogg",
+      "kb": 20.7,
+      "tipo": "som",
+      "usos": [
+        "bencao_recebida",
+        "carga_arco_completa"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/power_up_3.ogg",
+      "kb": 20.2,
+      "tipo": "som",
+      "usos": [
+        "bencao_recebida",
+        "carga_arco_completa"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/rugido_1.ogg",
+      "kb": 14.8,
+      "tipo": "som",
+      "usos": [
+        "monstro_rugido"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/rugido_2.ogg",
+      "kb": 9.9,
+      "tipo": "som",
+      "usos": [
+        "monstro_rugido"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/rugido_3.ogg",
+      "kb": 13.8,
+      "tipo": "som",
+      "usos": [
+        "monstro_rugido"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/rugido_4.ogg",
+      "kb": 26.2,
+      "tipo": "som",
+      "usos": [
+        "monstro_rugido"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/transicao_1.ogg",
+      "kb": 21.8,
+      "tipo": "som",
+      "usos": [
+        "transicao_sala"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/transicao_2.ogg",
+      "kb": 17.4,
+      "tipo": "som",
+      "usos": [
+        "transicao_sala"
+      ]
+    },
+    {
+      "caminho": "sfx/pack/transicao_3.ogg",
+      "kb": 17.6,
+      "tipo": "som",
+      "usos": [
+        "transicao_sala"
+      ]
+    },
+    {
+      "caminho": "sfx/portal.wav",
+      "kb": 132.7,
+      "tipo": "som",
+      "usos": [
+        "portal"
+      ]
+    },
+    {
+      "caminho": "sfx/pulo_duplo.wav",
+      "kb": 25.9,
+      "tipo": "som",
+      "usos": []
+    },
+    {
+      "caminho": "sfx/purificacao.wav",
+      "kb": 131,
+      "tipo": "som",
+      "usos": [
+        "purificacao"
+      ]
+    },
+    {
+      "caminho": "sfx/ui_select.wav",
+      "kb": 17.3,
+      "tipo": "som",
+      "usos": [
+        "troca_par"
+      ]
+    }
+  ]
+}
