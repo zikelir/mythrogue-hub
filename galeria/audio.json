@@ -15,11 +15,9 @@
     "bgm/FireflyField.ogg",
     "bgm/FullSteam.ogg",
     "bgm/Gentle.ogg",
-    "bgm/Geometric_Gateway.ogg",
     "bgm/GoneFishin.ogg",
     "bgm/GoodnightHolly.ogg",
     "bgm/GrassyPlains.ogg",
-    "bgm/King_of_the_Rotting_Path.ogg",
     "bgm/Memory.ogg",
     "bgm/MovingOn.ogg",
     "bgm/NewDay.ogg",
@@ -305,7 +303,9 @@
       "caminho": "bgm/Geometric_Gateway.ogg",
       "kb": 1786.4,
       "tipo": "musica",
-      "usos": []
+      "usos": [
+        "especiais.umbral.0"
+      ]
     },
     {
       "caminho": "bgm/GoneFishin.ogg",
@@ -337,7 +337,9 @@
       "caminho": "bgm/King_of_the_Rotting_Path.ogg",
       "kb": 1340.3,
       "tipo": "musica",
-      "usos": []
+      "usos": [
+        "especiais.umbral.1"
+      ]
     },
     {
       "caminho": "bgm/LastDance.ogg",
