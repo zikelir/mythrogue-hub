@@ -1,9 +1,9 @@
 {
   "_nota": "Gerado por scripts/montar-acervo-audio.mjs. \"usos\" = onde toca no jogo.",
-  "total": 118,
-  "musicas": 68,
+  "total": 126,
+  "musicas": 76,
   "sons": 50,
-  "kb_total": 78225,
+  "kb_total": 89628,
   "eventos_mudos": [],
   "orfaos": [
     "bgm/Awake.ogg",
@@ -37,64 +37,7 @@
     "sfx/golpe_gelo.wav",
     "sfx/pulo_duplo.wav"
   ],
-  "bgm_monotonia": [
-    {
-      "contexto": "boss_final",
-      "n": 1,
-      "faixas": [
-        "solar_apex_collision"
-      ]
-    },
-    {
-      "contexto": "boss_padrao",
-      "n": 1,
-      "faixas": [
-        "last_stand"
-      ]
-    },
-    {
-      "contexto": "padrao",
-      "n": 1,
-      "faixas": [
-        "battle_theme"
-      ]
-    },
-    {
-      "contexto": "salas.caos",
-      "n": 1,
-      "faixas": [
-        "withered"
-      ]
-    },
-    {
-      "contexto": "salas.elite",
-      "n": 1,
-      "faixas": [
-        "last_dance"
-      ]
-    },
-    {
-      "contexto": "salas.erebo",
-      "n": 1,
-      "faixas": [
-        "ancient_halls"
-      ]
-    },
-    {
-      "contexto": "salas.fonte",
-      "n": 1,
-      "faixas": [
-        "rest_now"
-      ]
-    },
-    {
-      "contexto": "salas.loja",
-      "n": 1,
-      "faixas": [
-        "the_city_wakes"
-      ]
-    }
-  ],
+  "bgm_monotonia": [],
   "itens": [
     {
       "caminho": "bgm/Above_the_Cloud_Line.ogg",
@@ -154,6 +97,70 @@
       "tipo": "musica",
       "usos": [
         "boss_biomas.floresta.0"
+      ]
+    },
+    {
+      "caminho": "bgm/bgm_boss_final_troops.ogg",
+      "kb": 1359.2,
+      "tipo": "musica",
+      "usos": [
+        "boss_final.1"
+      ]
+    },
+    {
+      "caminho": "bgm/bgm_boss_whistleblower.ogg",
+      "kb": 1332.4,
+      "tipo": "musica",
+      "usos": [
+        "boss_padrao.1"
+      ]
+    },
+    {
+      "caminho": "bgm/bgm_caos_timewarps.ogg",
+      "kb": 1438.4,
+      "tipo": "musica",
+      "usos": [
+        "salas.caos.1"
+      ]
+    },
+    {
+      "caminho": "bgm/bgm_combate_duel.ogg",
+      "kb": 1474.9,
+      "tipo": "musica",
+      "usos": [
+        "padrao.1"
+      ]
+    },
+    {
+      "caminho": "bgm/bgm_elite_chikara.ogg",
+      "kb": 1394.5,
+      "tipo": "musica",
+      "usos": [
+        "salas.elite.1"
+      ]
+    },
+    {
+      "caminho": "bgm/bgm_erebo_mystics.ogg",
+      "kb": 1384.8,
+      "tipo": "musica",
+      "usos": [
+        "salas.erebo.1"
+      ]
+    },
+    {
+      "caminho": "bgm/bgm_fonte_glowing.ogg",
+      "kb": 1731.1,
+      "tipo": "musica",
+      "usos": [
+        "salas.fonte.1"
+      ]
+    },
+    {
+      "caminho": "bgm/bgm_loja_mischievous.ogg",
+      "kb": 1287.7,
+      "tipo": "musica",
+      "usos": [
+        "salas.loja.1"
       ]
     },
     {
