@@ -1,9 +1,9 @@
 {
   "_nota": "Gerado por scripts/montar-acervo-audio.mjs. \"usos\" = onde toca no jogo.",
-  "total": 126,
-  "musicas": 76,
+  "total": 128,
+  "musicas": 78,
   "sons": 50,
-  "kb_total": 89628,
+  "kb_total": 92164,
   "eventos_mudos": [],
   "orfaos": [
     "bgm/Awake.ogg",
@@ -98,11 +98,34 @@
       ]
     },
     {
+      "caminho": "bgm/bgm_boss_final_troops_i1.ogg",
+      "kb": 1275.4,
+      "tipo": "musica",
+      "usos": [
+        "boss_final.1",
+        "boss_final_fases.0",
+        "boss_final_fases.1"
+      ]
+    },
+    {
+      "caminho": "bgm/bgm_boss_final_troops_i2.ogg",
+      "kb": 1260.9,
+      "tipo": "musica",
+      "usos": [
+        "boss_final.1",
+        "boss_final_fases.0",
+        "boss_final_fases.2"
+      ]
+    },
+    {
       "caminho": "bgm/bgm_boss_final_troops.ogg",
       "kb": 1359.2,
       "tipo": "musica",
       "usos": [
-        "boss_final.1"
+        "boss_final.1",
+        "boss_final_fases.0",
+        "boss_final_fases.1",
+        "boss_final_fases.2"
       ]
     },
     {
